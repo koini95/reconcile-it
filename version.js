@@ -1,5 +1,5 @@
 (() => {
-  const VERSION = 'v0.1.3';
+  const VERSION = 'v0.1.3'; // visible build marker
   const mount = () => {
     if (document.getElementById('reconcile-version')) return;
     const badge = document.createElement('span');
